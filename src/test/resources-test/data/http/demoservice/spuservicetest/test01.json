@@ -1,0 +1,15 @@
+{
+  "获取商品列表": [
+    {
+      "preconditions": {},
+      "comments": "",
+      "expect": {},
+      "request": {
+        "req": {
+          "sort": "新歌榜",
+          "format": "json"
+        }
+      }
+    }
+  ]
+}
