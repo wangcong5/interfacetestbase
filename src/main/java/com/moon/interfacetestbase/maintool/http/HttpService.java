@@ -5,7 +5,6 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class HttpService extends HttpClient {
     public HttpService() {
-
     }
 
     /**

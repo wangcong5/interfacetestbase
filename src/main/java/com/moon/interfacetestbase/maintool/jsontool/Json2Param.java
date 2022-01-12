@@ -25,7 +25,6 @@ public class Json2Param {
      */
     public static Object[][] JSON2Array(String fileName) {
         String jsonString = readFile(fileName);
-        System.out.println("====================\n"+jsonString);
         JSONObject jsonObject = JSON.parseObject(jsonString);
         Iterator<String> iterator = jsonObject.keySet().iterator();
 

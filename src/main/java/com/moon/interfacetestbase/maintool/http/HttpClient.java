@@ -49,6 +49,7 @@ abstract public class HttpClient extends TestBase {
             } catch (IOException e) {
                 log.info(" get body error, msg: {}", e.getMessage(), e);
             }
+            log.info("request url is : {}", url);
             responseMap = new ResponseMap(response.headers(), response.code(), response.message(), url, body.toString(), "");
         } else {
             responseMap = new ResponseMap();

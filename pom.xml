@@ -68,6 +68,13 @@
             <version>2.2.0</version>
         </dependency>
 
+<!--        轻量级HTTP库-->
+        <dependency>
+            <groupId>com.konghq</groupId>
+            <artifactId>unirest-java</artifactId>
+            <version>3.13.3</version>
+        </dependency>
+
 
     </dependencies>
 

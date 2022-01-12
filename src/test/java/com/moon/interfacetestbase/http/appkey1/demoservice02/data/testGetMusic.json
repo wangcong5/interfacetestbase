@@ -1,12 +1,14 @@
 {
-  "获取商品列表": [
+  "网易云音乐，随机歌曲输出": [
     {
       "preconditions": {},
       "comments": "",
-      "expect": {},
+      "expect": {
+        "code": 200
+      },
       "request": {
         "req": {
-          "sort": "新歌榜",
+          "sort": "热歌榜",
           "format": "json"
         }
       }

@@ -1,0 +1,18 @@
+{
+  "发表评论-正向": [
+    {
+      "preconditions": {},
+      "comments": "",
+      "request": {
+        "req": {
+          "commentId": "",
+          "content": "%E5%97%AF%E5%97%AF%EF%BC%8C%E5%A5%BD%E8%B0%88",
+          "articleId": 121876998
+        }
+      },
+      "expect": {
+        "code": 200
+      }
+    }
+  ]
+}
